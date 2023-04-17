@@ -1,0 +1,585 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: auto;
+    max-width: 1440px;
+}
+
+
+.logoandnav {
+    display: flex;
+}
+
+.logobooki1 {
+    display: flex;
+    max-width: 80px;
+    max-height: 25px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    padding-right: 50px;
+    gap: 75px;
+}
+
+.hebergements {
+    font-weight: 400;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.hebergements:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+
+}
+
+.activites {
+    font-weight: 400;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.activites:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+.titresetrecherche {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.ouca {
+    font-weight: 400;
+
+}
+
+.titres {
+    padding-left: 50px;
+}
+
+.recherchebar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.locationbutton {
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    width: 50px;
+    cursor: pointer;
+}
+
+.locationbutton:hover {
+    background-color: #D9D9D9;
+}
+
+.locationpng {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.recherche {
+    border-radius: 0 15px 15px 0px;
+    background-color: #0065FC;
+    color: aliceblue;
+    font-weight: 800;
+    width: 110px;
+    height: 49px;
+    border: none;
+    cursor: pointer;
+}
+
+.recherche:hover {
+    background-color: #5D51FF;
+}
+
+.filterbar {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+
+.filterbuttons {
+    font-weight: 800;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px 25px 25px 25px;
+    height: 40px;
+    margin: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    min-width: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.filterpic {
+    max-height: 25px;
+    max-width: 25px;
+    vertical-align: middle
+}
+
+.filterbuttons:hover {
+    background-color: #DEEBFF;
+}
+
+.advice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.advicetitle {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.advicepng {
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.hebergementsmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 40px;
+    min-height: 100px;
+    width: 100%;
+}
+
+.hebergementsM {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: 45px;
+    max-width: 55%;
+    background-color: #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.titreH {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.hebergementscards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    font-weight: 800;
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;
+    width: 210px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.hebergementscards:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+.hebergementsMpic {
+    max-height: 50%;
+    max-width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.descH {
+    font-weight: 200;
+}
+
+.more {
+    display: flex;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-right: 25px;
+}
+
+.priceM {
+    width: 100%;
+    font-weight: 400;
+}
+
+.ratingstars {
+    display: flex;
+    flex-direction: row;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    background-color: #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.popTOP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titreP {
+    width: 90%;
+}
+
+.popularcards {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    font-weight: 800;
+    border-radius: 15px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;
+    width: 369px;
+    height: 144px;
+}
+
+.popularcards:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+.poppics {
+    height: 100%;
+    width: 33%;
+    border-radius: 15px 0px 0px 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.popdesc {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+.activitesM {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 30px;
+}
+
+.ACTMtitle {
+    min-width: 100%;
+    padding-left: 40px;
+}
+
+.ACTMcards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    border: none;
+    border-radius: 25px;
+    border: 5px solid white;
+    font-weight: 800;
+    background-color: white;
+    box-shadow: 1px 1px 10px grey;
+    width: 20%;
+    overflow: hidden;
+}
+
+.ACTMcards:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+}
+
+.ACTMpic {
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 5px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
+}
+
+.ACTMlocation {
+    padding-left: 15px;
+}
+
+.footer {
+    background-color: #F2F2F2;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerC1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerC2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerC3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlinks {
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.footerlinks:hover {
+    text-decoration: underline;
+}
+
+/* css dekstop */
+
+@media(max-width:1024px) {
+
+    body {
+        margin: auto;
+        max-width: 1024px;
+    }
+
+    .filtertitle {
+        width: 100%;
+    }
+
+    .filterbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .filterbuttons {
+        margin: 5px;
+    }
+
+    .hebergementsmenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hebergementsM {
+        max-width: 90%;
+    }
+
+    .more {
+        width: 100%;
+    }
+
+    .titreP {
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    .popular {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 90%;
+        gap: 5px;
+    }
+
+    .popTOP {
+        width: 100%;
+    }
+
+    .popularcards {
+        width: 29%;
+        margin-left: 15px;
+    }
+
+    .activitesM {
+        gap:15px;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    .ACTMcards {
+        text-align: left;
+    }
+}
+
+/* css tablette */
+
+@media (max-width: 375px) {
+
+    .logoandnav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logobooki1 {
+        display: flex;
+        margin-left: 140px;
+        padding-left: 0px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-right: 0px;
+        padding-top: 20px;
+        margin-left: 0px;
+        gap: 0;
+    }
+
+    .hebergements {
+        text-align: center;
+        padding-top: 0px;
+        width: 175px;
+        padding-bottom: 15px;
+    }
+
+    .hebergements:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    .activites {
+        text-align: center;
+        padding-top: 0px;
+        width: 175px;
+        padding-bottom: 15px;
+    }
+
+    .activites:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    .ouca {
+        font-weight: 200;
+    }
+
+    .titres {
+        padding-left: 15px;
+    }
+
+    .recherchebar {
+        justify-content: center;
+    }
+
+    .recherchebar {
+        padding-left: 15px;
+    }
+
+    .filterbar {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        justify-content: center;
+    }
+
+    .filtertitle {
+        width: 100%;
+    }
+
+    .filterbuttons {
+        margin: 5px;
+        min-width: 131px;
+    }
+
+    .advice {
+        padding-left: 15px;
+    }
+
+    .hebergementsmenu {
+        max-width: 100%;
+        padding-left: 0px;
+        gap: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .hebergementsM {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        background-color: white;
+        /* order: +1;  */
+        gap: 5px;
+    }
+
+    .hebergementscards {
+        width: 100%;
+    }
+
+    .popular {
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px;
+        max-width: 100%;
+        gap: 20px;  
+    }
+
+    .popularcards {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .activitesM {
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .ACTMcards {
+        width: 100%;
+        height: 200px;
+    }
+
+    .ACTMpic {
+        height: 70%;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+}
+
+/* css phone */
